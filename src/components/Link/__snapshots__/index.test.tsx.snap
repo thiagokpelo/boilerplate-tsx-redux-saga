@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Link Renders link to Google 1`] = `ShallowWrapper {}`;
+
+exports[`Link Renders link to Google with classname 1`] = `ShallowWrapper {}`;
