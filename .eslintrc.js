@@ -39,15 +39,7 @@ module.exports = {
       "ignoreComments": true,
       "ignoreUrls": true
     }],
-    "object-curly-newline": [
-      "error",
-      {
-        "ObjectExpression": "always",
-        "ObjectPattern": {
-          "minProperties": 4
-        }
-      }
-    ]
+    "object-curly-newline": 0,
   },
   settings: {
     'import/parsers': {
