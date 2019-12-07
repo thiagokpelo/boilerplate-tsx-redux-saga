@@ -9,6 +9,10 @@
 			"path": "__tests__"
 		},
 		{
+			"name": "Storybook",
+			"path": ".storybook"
+		},
+		{
 			"name": "Config",
 			"path": "./config"
 		},
