@@ -34,6 +34,20 @@ module.exports = {
     '@typescript-eslint/explicit-member-accessibility': 'off',
     'react/prop-types': 'off',
     'react/state-in-constructor': 'off',
+    "max-len": [1, {
+      "code": 100,
+      "ignoreComments": true,
+      "ignoreUrls": true
+    }],
+    "object-curly-newline": [
+      "error",
+      {
+        "ObjectExpression": "always",
+        "ObjectPattern": {
+          "minProperties": 4
+        }
+      }
+    ]
   },
   settings: {
     'import/parsers': {

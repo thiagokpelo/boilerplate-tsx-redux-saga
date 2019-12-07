@@ -11,24 +11,30 @@
 			100
 		],
 		"eslint.autoFixOnSave": true,
-		"eslint.lintTask.options": "-c ./.eslint.js --ignore-path ./.eslintignore .",
+		"eslint.lintTask.options": "-c .eslintrc.js --ignore-path .eslintignore .",
 		"eslint.validate": [
 			{
 				"language": "javascript",
-				"autoFix": true
+				"autoFix": false
 			},
 			{
 				"language": "javascriptreact",
-				"autoFix": true
+				"autoFix": false
 			},
 			{
 				"language": "typescript",
-				"autoFix": true
+				"autoFix": false
 			},
 			{
 				"language": "typescriptreact",
-				"autoFix": true
+				"autoFix": false
 			}
 		],
-	}
+		"prettier.configPath": ".prettierrc.js",
+		"eslint.alwaysShowStatus": true,
+		"eslint.packageManager": "yarn",
+		"editor.formatOnSave": true,
+		"prettier.bracketSpacing": false,
+		"prettier.semi": false
+	},
 }
