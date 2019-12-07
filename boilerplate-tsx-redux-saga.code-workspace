@@ -1,7 +1,19 @@
 {
 	"folders": [
 		{
-			"name": "Root",
+			"name": "Project",
+			"path": "./src"
+		},
+		{
+			"name": "Tests",
+			"path": "__tests__"
+		},
+		{
+			"name": "Config",
+			"path": "./config"
+		},
+		{
+			"name": "__root",
 			"path": "."
 		}
 	],
